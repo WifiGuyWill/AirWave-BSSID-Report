@@ -2,7 +2,7 @@
 Script to capture the current list of BSSIDs from AirWave, generate a PDF and send via Email
 
 # Example Emailed Report
-![REPORT]https://github.com/WifiGuyWill/AirWave-BSSID-Report/blob/main/bssid.pdf "REPORT")
+<img src="https://github.com/WifiGuyWill/AirWave-BSSID-Report/blob/main/bssid.jpg" width="350" height="400">
 
 # Install Instructions:
 
