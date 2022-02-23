@@ -78,7 +78,7 @@ class PDF(FPDF):
 #        self.image('aruba_logo.png', 170, 275, 33) #bottom right
         self.image('aruba_logo.png', 170, 10, 33) #top right
         self.set_font('Arial', 'B', 15)
-        self.cell(0, 10, 'Aruba AP BSSID Table', 0, 1, 'C')
+        self.cell(0, 10, 'Aruba AP BSSID List', 0, 1, 'C')
 
 def create_pdf():
     pdf = PDF()
