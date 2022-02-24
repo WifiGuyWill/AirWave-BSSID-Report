@@ -1,5 +1,5 @@
 # AirWave BSSID Report
-Script to capture the current list of BSSIDs from AirWave, generate a PDF and send via Email
+Script to capture the current list of BSSIDs from AirWave, generate pdf or  and send via Email
 
 # Example Emailed Report
 <img src="https://github.com/WifiGuyWill/AirWave-BSSID-Report/blob/main/bssid.jpg" width="350" height="400">
@@ -13,6 +13,7 @@ Script to capture the current list of BSSIDs from AirWave, generate a PDF and se
   4. Install the requirements
    > "pip3 install -r requirements.txt"
   6. Edit bssid.py
+   > Enter pdf or csv format option
    > Enter AirWave URL, login name, password and email info
   7. Run the script
    > "python3 bssid.py"
