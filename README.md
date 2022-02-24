@@ -14,6 +14,7 @@ Script to capture the current list of BSSIDs from AirWave, generate pdf or  and 
    > "pip3 install -r requirements.txt"
   6. Edit bssid.py
    > Enter pdf or csv format option
+   > 
    > Enter AirWave URL, login name, password and email info
   7. Run the script
    > "python3 bssid.py"
