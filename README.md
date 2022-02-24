@@ -1,5 +1,5 @@
 # AirWave BSSID Report
-Script to capture the current list of BSSIDs from AirWave, generate pdf or  and send via Email
+Script to capture the current list of BSSIDs from AirWave, generate PDF or CSV and send via Email
 
 # Example Emailed Report
 <img src="https://github.com/WifiGuyWill/AirWave-BSSID-Report/blob/main/bssid.jpg" width="350" height="400">
