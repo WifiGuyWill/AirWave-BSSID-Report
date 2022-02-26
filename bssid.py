@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*-
 #(c) 2022 Will Smith - WILL@WIFI-GUYS.COM
 
-"""Connect to Airwave REST API to get AP BSSID, Create PDF then Send as Email Attachement"""
+"""Connect to Airwave REST API to get AP BSSID, Create PDF then Send as Email Attachment"""
 
 # Debian packages: python3-requests, python3-lxml
 import xml.etree.ElementTree as ET # libxml2 and libxslt
 import requests                    # HTTP requests
 from fpdf import FPDF              # Create PDF
-import pandas as pd                # Creat CSV
-import urllib3                     # Supress SSL Errors
+import pandas as pd                # Create CSV
+import urllib3                     # Suppress SSL Errors
 import smtplib, ssl                # Send Email
 
 from email import encoders
@@ -109,7 +109,7 @@ def cleanup():
 def send_email():
     try:
         subject = "Aruba BSSID List"
-        body = "Please see attachement."
+        body = "Please see attachment."
         sender_email = gmail_user 
         receiver_email = receiver_email_address
         password = gmail_password
