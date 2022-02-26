@@ -49,7 +49,7 @@ HEADERS = {
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) #Disable SSL Warnings
 
 # ---------------------------------------------------------------------------
-# Funtions
+# Functions
 # ---------------------------------------------------------------------------
 
 # AirWave Authentication
