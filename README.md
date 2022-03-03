@@ -9,6 +9,7 @@ Script to capture the current list of BSSIDs from AirWave, generate PDF or CSV a
   1. Copy the files to host
   2. Optional (Create Virtual Enviroment)
    > "python3 -m venv venv"
+   > 
    > "source venv/bin/activate"
   4. Install the requirements
    > "pip3 install -r requirements.txt"
